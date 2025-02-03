@@ -11,7 +11,7 @@ public class TestPositivo {
         try {
             NumeroPositivo numeroPositivo = new NumeroPositivo(numero);
             System.out.println("Numero: " + numeroPositivo.getNumero());
-        } catch (NegativeExcepion | IntervalloException e) {
+        } catch (NegativoExcepion | IntervalloException e) {
             System.err.println("Errore: " + e.getMessage());
         }
     }

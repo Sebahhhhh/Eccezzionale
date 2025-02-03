@@ -1,9 +1,9 @@
 public class NumeroPositivo {
     private int numero;
 // controlli
-    public NumeroPositivo(int numero) throws NegativeExcepion, IntervalloException {
+    public NumeroPositivo(int numero) throws NegativoExcepion, IntervalloException {
         if (numero < 0) {
-            throw new NegativeExcepion("E' Negativo.");
+            throw new NegativoExcepion("E' Negativo.");
         }
         if (numero > 30) {
             throw new IntervalloException("Il numero deve essere tra 0 e 30.");
