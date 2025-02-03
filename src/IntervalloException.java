@@ -1,5 +1,4 @@
-public class IntervalloException extends Exception {
-    //eccezione 2
+public class IntervalloException extends Gerarchia {
     public IntervalloException(String messaggio) {
         super(messaggio);
     }

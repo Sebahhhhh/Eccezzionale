@@ -5,7 +5,11 @@ public class TestPositivo {
         // scanner
         Scanner in = new Scanner(System.in);
 
-        System.out.print("Inserisci Un Numero: ");
+        System.out.print("");
+        System.out.println("Inserisci un numero che deve essere: ");
+        System.out.println("fra 0 e 30");
+        System.out.println("non negativo");
+        System.out.println("Numero: ");
         int numero = in.nextInt();
 
         try {

@@ -1,5 +1,4 @@
-public class NegativoExcepion extends Exception {
-// eccezione 1
+public class NegativoExcepion extends Gerarchia {
     public NegativoExcepion(String messaggio) {
         super(messaggio);
     }
